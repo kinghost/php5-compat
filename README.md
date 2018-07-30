@@ -1,2 +1,2 @@
 # php5-compat
-Implements discontinnued php5 functions on php7
+Implementa de forma transparente funções que foram descontinuadas no PHP7
