@@ -55,7 +55,7 @@ function is_myresource ($o, $onlyres = false) {
 if ( ! function_exists ('mysql_connect') ) {
 
     if ( ! extension_loaded ('mysqli') ) {
-        throw new Exception (E_ERROR, 'MySQL wrapper must need mysqli extension');
+        throw new Exception ('MySQL wrapper needs the mysqli extension', E_ERROR);
     }
 
     if ( ! function_exists ('___ini_get') ) {
