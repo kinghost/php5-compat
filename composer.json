@@ -3,6 +3,7 @@
     "description": "Implementa de forma transparente funções que foram descontinuadas no PHP7",
     "type": "library",
     "license": "GPL-3.0",
+    "abandoned": "fbraz3/php5-compatibility-layer",
     "require": {
         "php": "^7.0"
     },
